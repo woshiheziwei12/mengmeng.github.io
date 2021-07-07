@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<script>
+	    var a=1;
+		window.onload = function() {
+			document.getElementById("hezi").onclick = bianhua;
+		}
+
+		function bianhua() {
+            if(a==1){
+            	document.getElementById("xiaohezi").style.backgroundImage="url(img/hesaldkfjasldfjkslad;jfasdfg.PNG)"
+            	document.getElementById("dahezi").style.top="0px";
+            	document.getElementById("dahezi").style.transitionDuration="1s";
+            	a=0;
+            }else{
+            	document.getElementById("xiaohezi").style.backgroundImage="url(img/he捕获.PNG)"
+            	document.getElementById("dahezi").style.top="-1654px";
+            	document.getElementById("dahezi").style.transitionDuration="1s";
+            	a=1;
+            }
+		}
+	</script>
+	<style type="text/css">
+		* {
+			padding: 0px;
+			margin: 0px;
+		}
+		
+		.header {
+			width: 1260px;
+			height: 100px;
+			margin: auto;
+			background: white;
+			position: relative;
+			z-index: 999;
+		}
+		
+		.logo {
+			width: 191px;
+			height: 100px;
+			position: relative;
+		}
+		
+		.logo img {
+			position: absolute;
+			bottom: 21px;
+		}
+		
+		.header ul {
+			list-style: none;
+			width: 990px;
+			height: 100px;
+			position: absolute;
+			left: 270px;
+			top: 0px;
+		}
+		
+		.header .kong {
+			width: 79px;
+			height: 100px;
+			/*	background-color:black ;*/
+			position: absolute;
+			left: 191px;
+			top: 0px;
+		}
+		
+		.header li {
+			cursor: pointer;
+			float: left;
+			font-size: 16px;
+			margin-left: 25px;
+			margin-right: 25px;
+			text-align: center;
+			line-height: 100px;
+			position: relative;
+			opacity: 0.5;
+		}
+		
+		.header li:hover {
+			border-top: 5px solid #990033;
+			line-height: 90px;
+			opacity: 1;
+			transition-duration: 0.5s;
+		}
+		
+		ul span {
+			margin: 0px;
+			float: left;
+			line-height: 90px;
+		}
+		
+		#hezi {
+			width: 120px;
+			height: 120px;
+			position: absolute;
+			left: 1140px;
+			cursor: pointer;
+			top: 0px;
+		}
+		
+		#xiaohezi {
+			width: 120px;
+			height: 120px;
+			background-image: url(img/he捕获.PNG);
+			height: 120px;
+			position: relative;
+			z-index: 1;
+		}
+		
+		#header2 {
+			width: 100%;
+			height: 180px;
+			background: url(img/heasdflaskdfj.png);
+			position: relative;
+		}
+		
+		#header2 #hezi2 p {
+			color: white;
+			font-size: 40px;
+			line-height: 94px;
+			margin-bottom: 10px;
+		}
+		
+		#hezi2 {
+			width: 240px;
+			height: 84px;
+			border-bottom: 5px solid #c21d35;
+			position: absolute;
+			top: 90px;
+			left: 50px;
+		}
+		
+		#main {
+			width: 832px;
+			height: 547px;
+			margin-left: 50px;
+			margin-top: 70px;
+		}
+		
+		#main p {
+			font: 14px/28px "Microsoft YaHei";
+			color: #626262;
+			margin: 0 0 30px;
+		}
+		
+		#footer {
+			width: 100%;
+			height: 114px;
+			background: url(img/heizwsdkajfhksah.PNG);
+		}
+		
+		#dahezi {
+			width: 1260px;
+			height: 1554px;
+			opacity: 0.96;
+			background: #282b2d;
+			overflow: hidden;
+			position: absolute;
+			z-index: 5;
+			left: 120px;
+			top: -1654px;
+		}
+		
+		#dahezi #hezi3 {
+			opacity: 1.5;
+			width: 1180px;
+			font-size: 20px;
+			height: 20px;
+			color: white;
+			margin: auto;
+			margin-top: 50px;
+		}
+		
+		#dahezi #hezi3 p {
+			display: inline;
+			line-height: 20px;
+			margin: 0px;
+			font-size: 20px;
+		}
+		
+		#dahezi #hezi3 #hhh {
+			width: 11px;
+			height: 11px;
+			background-size: 11px 11px;
+			float: right;
+			position: relative;
+			z-index: 2;
+		}
+		
+		#dahezi #hezi3 #nnn {
+			width: 11px;
+			height: 11px;
+			background: url();
+			background-size: 11px 11px;
+			float: right;
+			position: relative;
+			z-index: 2;
+		}
+		
+		#dahezi #hezi3 img {
+			display: block;
+			margin-top: 5px;
+			width: 11px;
+			height: 11px;
+			border-radius: 2px;
+		}
+		
+		#dahezi #heziwei1 {
+			margin-top: 25px;
+			width: 314px;
+			height: 149px;
+			float: left;
+		}
+		
+		#dahezi #heziwei2 {
+			margin-top: 25px;
+			width: 178px;
+			height: 429px;
+			border-left: 1px #454545 solid;
+			float: left;
+		}
+		
+		#dahezi #heziwei3 {
+			margin-top: 25px;
+			width: 178px;
+			height: 1409px;
+			border-left: 1px #454545 solid;
+			float: left;
+		}
+		
+		#dahezi #heziwei4 {
+			margin-top: 20px;
+			width: 587px;
+			height: 149px;
+			border-left: 1px #454545 solid;
+			float: left;
+		}
+		
+		h2 {
+			font-size: 14px;
+			color: #6b6b6c;
+			font-weight: 700;
+			margin-top: 30px;
+			text-indent: 40px;
+			margin-bottom: 30px;
+		}
+		
+		#neirong p {
+			width: 136px;
+			float: left;
+			height: 28px;
+			color: #c3c3c3;
+           font-size: 14px;
+           line-height: 28px;
+           margin-left:40px;
+		}
+		#neirong .p2 {
+			width: 136px;
+			float: left;
+			height: 28px;
+			color: #c3c3c3;
+           font-size: 14px;
+           line-height: 28px;
+           margin-left:0px;
+		}
+		#neirong p span{
+			float: left;
+		}
+		#neirong img{
+			display: block;
+			float: left;
+			margin-top: 8px;
+			margin-left: 5px;
+			width: 11px;
+			height: 11px;
+			border-radius: 2px;
+		}
+	</style>
+ 
+	<body>
+		<div class="header">
+			<div class="logo">
+				<img  src="img/helogo1_1c91104.png" />
+			</div>
+			<div class="kong"></div>
+			<div>
+				<ul>
+					<li>游戏，热爱才懂
+						<div class="hongtiao"></div>
+					</li><span>.</span>
+					<li>网易游戏App
+						<div class="hongtiao"></div>
+					</li><span>.</span>
+					<li>关于网易游戏
+						<div class="hongtiao"></div>
+					</li><span>.</span>
+					<li>人才招聘
+						<div class="hongtiao"></div>
+					</li><span>.</span>
+					<li>客服中心
+						<div class="hongtiao"></div>
+					</li><span>.</span>
+					<li>网易游戏频道
+						<div class="hongtiao"></div>
+					</li>
+				</ul>
+			</div>
+			<div id="hezi">
+				<div id="xiaohezi">
+				</div>
+			</div>
+		</div>
+		<div id="header2">
+			<div id="hezi2">
+				<p>网易游戏简介</p>
+			</div>
+			<div id="dahezi">
+				<div id="hezi3">
+					<p style="margin-left: 20px;">游戏列表</p>
+
+					<p style="font-size: 10px;float: right;">热门游戏</p>
+
+					<div id="hhh">
+						<img src="img/adfsadfsadfasdf (1).PNG" />
+					</div>
+					<div style="float: right;">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</div>
+					<p style="font-size: 10px;float: right;">最新游戏</p>
+					<div id="nnn">
+						<img src="img/adfsadfsadfasdf (2).PNG" />
+					</div>
+
+				</div>
+				<div id="neirong">
+					<div id="heziwei1">
+						<h2>西游系列</h2>
+						<p ><span>梦幻西游2</span>
+						<img src="img/adfsadfsadfasdf (1).PNG" />
+					    </p>
+						<p class="p2"><span>新大话西游2</span>
+						<img src="img/adfsadfsadfasdf (1).PNG" />
+					    </p>
+						<p><span>大话二免费版</span>
+						<img src="img/adfsadfsadfasdf (2).PNG" />
+					</p>
+						<p class="p2">大话西游三</p>
+						<p>新大话西游三</p>
+						<p class="p2">大话外传新篇</p>
+					</div>
+					<div id="heziwei2">
+						<h2>角色扮演</h2>
+						<p><span>西楚霸王 </span><img src="img/adfsadfsadfasdf (2).PNG" /> </p>
+						<p><span>暗黑破坏神3</span><img src="img/adfsadfsadfasdf (2).PNG" /> </p>
+						<p><span>天谕</span><img src="img/adfsadfsadfasdf (1).PNG" /> </p>	
+						<p><span>镇魔曲</span> </p>
+						<p><span>天下三</span> </p>
+						<p><span>倩女幽魂2</span> </p>
+						<p><span>大唐无双零</span> </p>
+						<p><span>龙剑</span> </p>
+						<p><span>武魂二</span> </p>
+						<p><span>斩魂</span> </p>
+						<p><span>魔兽世界</span> </p>
+						<p><span>新飞飞</span> </p>
+						<p><span>精灵传说</span> </p>
+					</div>
+					<div id="heziwei3">
+						<h2>手游</h2> 
+					    <p> <span >梦幻西游手游</span><img src="img/adfsadfsadfasdf (1).PNG" /></p>
+					    <p> <span >大话西游手游</span><img src="img/adfsadfsadfasdf (1).PNG" /></p>
+					    <p> <span >乱斗西游2 </span><img src="img/adfsadfsadfasdf (1).PNG" /></p>
+					    <p> <span >天下HD</span><img src="img/adfsadfsadfasdf (1).PNG" /></p>
+					    <p> <span >小时代官方游戏</span><img src="img/adfsadfsadfasdf (1).PNG" /></p>
+					    <p> <span >有杀气童话</span><img src="img/adfsadfsadfasdf (1).PNG" /></p>
+					    <p> <span >百将行 </span><img src="img/adfsadfsadfasdf (1).PNG" /></p>
+					    <p> <span >乖离性百万亚瑟王 </span><img src="img/adfsadfsadfasdf (1).PNG" /></p>
+					    <p> <span >Raven：掠夺者</span><img src="img/adfsadfsadfasdf (2).PNG" /></p>
+					    <p> <span >猫和老鼠官方手游</span><img src="img/adfsadfsadfasdf (2).PNG" /></p>
+					    <p> <span >功夫熊猫系列</span><img src="img/adfsadfsadfasdf (2).PNG" /></p>
+					    <p> <span >将临天下</span><img src="img/adfsadfsadfasdf (2).PNG" /></p>
+					    <p> <span >时空之刃</span><img src="img/adfsadfsadfasdf (2).PNG" /></p>
+					    <p> <span >功夫熊猫序篇</span><img src="img/adfsadfsadfasdf (2).PNG" /></p>
+					    <p> <span >梦想星城</span></p>
+					    <p> <span >率土之滨</span></p>
+					    <p> <span >天下X天下</span></p>
+					    <p> <span >魔天记</span></p>
+					    <p> <span >迷你西游</span></p>
+					    <p> <span >千岛物语</span></p><p> <span ></span></p>
+					    
+					    <p> <span >塔防骑士团</span></p>
+					    <p> <span >忍者必须死2</span></p>
+					    <p> <span >雨血：影之刃</span></p>
+					    <p> <span >恶魔不要啊</span></p>
+					    <p> <span >实况俱乐部</span></p>
+					    <p> <span >一起追追追</span></p>
+					    <p> <span >主公莫慌</span></p>
+					    <p> <span >妖精笔记</span></p>
+					    <p> <span >一起消消毒</span></p>
+					    <p> <span >西游神魔决</span></p>
+					    <p> <span >猎魔通缉令</span></p>
+					    
+					    <p> <span >塔防萌主</span></p>
+					    <p> <span >方块西游</span></p>
+					    <p> <span >口袋侏罗纪</span></p>
+					     <p> <span >大牌三国</span></p>
+					      <p> <span >碎碎曲奇</span></p>
+					       <p> <span >倩女幽魂录</span></p>
+					        <p> <span >F1 RACE STARS</span></p>
+					         <p> <span >塔塔西游</span></p>
+					          <p> <span >邪恶古堡</span></p>
+					           <p> <span >蛋糕物语</span></p>
+					            <p> <span >城堡风暴</span></p>
+					             <p> <span >方块精灵</span></p>
+					              <p> <span >绝地战警</span></p>
+					               <p> <span >精灵幻想</span></p>
+					                <p> <span >魔塔学院</span></p>
+					                <p> <span >音速小粉拳</span></p>
+					                <p> <span >超能动物联盟</span></p>
+					                
+					    
+					</div>
+					<div id="heziwei4">
+						<h2>竞技/休闲</h2> 
+						<p><span>突击英雄</span><img src="img/adfsadfsadfasdf (2).PNG" /></p>
+						<p><span>无尽战区</span><img src="img/adfsadfsadfasdf (2).PNG" /></p>
+						<p><span>夺宝联盟</span><img src="img/adfsadfsadfasdf (2).PNG" /></p>
+						<p><span>炉石传说</span></p>
+						<p><span>风暴英雄</span></p>
+						<p><span>星际争霸2</span></p>
+						<p><span>英雄三国</span></p>
+						<p><span>游戏星城</span></p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div id="main">
+			<p>网易2001年正式成立在线游戏事业部，与广大游戏热爱者一同成长15年，是全球领先的游戏开发与发行公司，自主研发了《梦幻西游2》《大话西游2》《天下3》《乱斗西游》《梦幻西游手游》等几十款倍受玩家喜爱的热门端游和手游，更独家代理了《魔兽世界》《炉石传说》等多款风靡全球的游戏。</p>
+			<p>2015年，网易游戏正式开启“游戏热爱者”品牌战略，用自身行动传导热爱者价值，并全面启动“聚合精品，共享热爱”战略计划，以全球化视野为游戏热爱者创造和发现好玩的精品游戏，提高游戏准入门槛，降低用户选择门槛。</p>
+			<p>网易游戏期待热爱游戏的人才加盟。</p>
+		</div>
+		<div id="footer"></div>
+	</body>
+
+</html>
